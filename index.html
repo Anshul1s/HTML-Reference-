@@ -7,7 +7,7 @@
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		
-	<title>HTML Reference</title>
+	<title>HTML Reference Sheet</title>
 	
 	<!-- Custom Style Sheets. -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -16,9 +16,10 @@
 <body>
 	<h1><u>HTML Reference Sheet</u></h1>
 	
-	<div class="container-fluid">
-		<table class="rounded">
-			<div class="row">
+	<div class="container-fluid rounded">
+	<table>
+		
+		<div class="row">
 			<tr id="table-headings">
 				<th><u>S No.</u></th>
 				<th><u>Name</u></th>
@@ -29,153 +30,204 @@
 				<th><u>Syntax</u></th>
 				<th><u>Example</u></th>
 			</tr>
-			</div>
+		</div>
 			
-			<div class="row">
-			<tr id="heading"> 
-				<td>1.</td>
-				<td>Heading</td>
-				<td>&lt;h1&gt; - &lt;h6&gt;</td>
-				<td>&lt;/h1&gt; - &lt;/h6&gt;</td>
-				<td></td>
-				<td>To add a [bold]heading (size decreases from h1 to h6)</td>
-				<td>&lt;h1&gt;Heading&lt;/h1&gt;</td>
-				<td></td>
+		<div class="row">
+			<tr id="doctype-tag">
+				<td></td>								<!-- S.no. -->
+				<td>DOCTYPE</td>						<!-- Name -->
+				<td>&lt;!DOCTYPE&gt;</td>				<!-- Opening Tag -->
+				<td>No Closing Tag</td>					<!-- Closing Tag (content to be changed) -->
+				<td></td>								<!-- Attribute -->
+				<td>Defines the document type</td>		<!-- Description -->
+				<td>&lt;!DOCTYPE ....&gt;</td>			<!-- Syntax -->
+				<td></td>								<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="paragraph">
-				<td>2.</td>
-				<td>Paragraph</td>
-				<td>&lt;p&gt;</td>
-				<td>&lt;/p&gt;</td>
-				<td></td>
-				<td>To Add a Paragraph</td>
-				<td>&lt;p&gt; Lorem ipsum Text &lt;/p&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="html-tag">
+				<td></td>												<!-- S.no. -->
+				<td>html</td>											<!-- Name -->
+				<td>&lt;html&gt;</td>									<!-- Opening Tag -->
+				<td>&lt;/html&gt;</td>									<!-- Closing Tag -->
+				<td></td>												<!-- Attribute -->
+				<td>Defines an HTML document</td>						<!-- Description -->
+				<td>&lt;html&gt;...&lt;/html&gt;</td>					<!-- Syntax -->
+				<td></td>												<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="comment">
-				<td>3.</td>
-				<td>Comment</td>
-				<td>&lt;!--</td>
-				<td>--&gt;</td>
-				<td></td>
-				<td>To improve readability of the code or to test code without deleting anything</td>
-				<td>&lt;!-- Here goes the comment --&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="head-tag">
+				<td></td>											<!-- S.no. -->
+				<td>head</td>										<!-- Name -->
+				<td>&lt;head&gt;</td>								<!-- Opening Tag -->
+				<td>&lt;/head&gt;</td>								<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines information about the document</td>		<!-- Description -->
+				<td>&lt;head&gt;...&lt;/head&gt;</td>				<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="image">
-				<td>4.</td>
-				<td>Image</td>
-				<td>&lt;img&gt;</td>
-				<td>~</td>
-				<td></td>
-				<td>To add an image</td>
-				<td>&lt;img src="source-link" alt="alternative text"&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="title-tag">
+				<td></td>											<!-- S.no. -->
+				<td>title</td>										<!-- Name -->
+				<td>&lt;title&gt;</td>								<!-- Opening Tag -->
+				<td>&lt;/title&gt;</td>								<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines a title for the document</td>			<!-- Description -->
+				<td>&lt;title&gt;...&lt;/title&gt;</td>				<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="anchor">
-				<td>5.</td>
-				<td>Anchor</td>
-				<td>&lt;a&gt;</td>
-				<td>&lt;/a&gt;</td>
-				<td></td>
-				<td>To add a link to elements</td>
-				<td>&lt;a href="destination-link"&gt; Click here to go to link &lt;/a&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="body-tag">
+				<td></td>											<!-- S.no. -->
+				<td>body</td>										<!-- Name -->
+				<td>&lt;body&gt;</td>								<!-- Opening Tag -->
+				<td>&lt;/body&gt;</td>								<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines the document's body</td>				<!-- Description -->
+				<td>&lt;body&gt;...&lt;/body&gt;</td>				<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="ordered list">
-				<td>6.</td>
-				<td>Ordered List</td>
-				<td>&lt;ol&gt;</td>
-				<td>&lt;/ol&gt;</td>
-				<td></td>
-				<td>Create an Ordered List</td>
-				<td>&lt;ol&gt;&lt;li&gt;First&lt;/li&gt;
-				&lt;li&gt;Second&lt;/li&gt;&lt;/ol&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="heading-tag">
+				<td></td>											<!-- S.no. -->
+				<td>heading</td>									<!-- Name -->
+				<td>&lt;h1&gt; to &lt;h6&gt;</td>					<!-- Opening Tag -->
+				<td>&lt;/h1&gt; to &lt;/h6&gt;</td>					<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines HTML headings</td>						<!-- Description -->
+				<td>&lt;h1&gt;...&lt;/h1&gt;</td>					<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="Unordered list">
-				<td>7.</td>
-				<td>Unordered List</td>
-				<td>&lt;ul&gt;</td>
-				<td>&lt;/ul&gt;</td>
-				<td></td>
-				<td>Create an Unordered List</td>
-				<td>&lt;ul&gt;&lt;li&gt;First&lt;/li&gt;
-				&lt;li&gt;Second&lt;/li&gt;&lt;/ul&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="paragraph-tag">
+				<td></td>											<!-- S.no. -->
+				<td>Paragraph</td>									<!-- Name -->
+				<td>&lt;p&gt;</td>									<!-- Opening Tag -->
+				<td>&lt;/p&gt;</td>									<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines a paragraph</td>						<!-- Description -->
+				<td>&lt;p&gt; Lorem ipsum Text &lt;/p&gt;</td>		<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
+		</div>
 			
-			<div class="row">
-			<tr id="input">
-				<td>8.</td>
-				<td>Input</td>
-				<td>&lt;input&gt;</td>
-				<td>~</td>
-				<td></td>
-				<td>To get input from user</td>
-				<td>&lt;input type="input-type"&gt;</td>
-				<td></td>
+		<div class="row">
+			<tr id="br-tag">
+				<td></td>											<!-- S.no. -->
+				<td>br</td>											<!-- Name -->
+				<td>&lt;br&gt;</td>									<!-- Opening Tag -->
+				<td>No Closing Tag</td>								<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Inserts a single line break</td>				<!-- Description -->
+				<td>&lt;br&gt;</td>									<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="form">
-				<td>9.</td>
-				<td>Form</td>
-				<td>&lt;form&gt;</td>
-				<td>&lt;/form&gt;</td>
-				<td></td>
-				<td>To create a form to submit</td>
-				<td>&lt;form action="/url-to-submit-form-data"&gt; all the input from user goes here &lt;/form&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="hr-tag">
+				<td></td>											<!-- S.no. -->
+				<td>hr</td>											<!-- Name -->
+				<td>&lt;hr&gt;</td>									<!-- Opening Tag -->
+				<td>No Closing Tag</td>								<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines a thematic change in the content</td>	<!-- Description -->
+				<td>&lt;hr&gt;</td>									<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="button">
-				<td>10.</td>
-				<td>Button</td>
-				<td>&lt;button&gt;</td>
-				<td>&lt;/button&gt;</td>
-				<td></td>
-				<td>To create a button</td>
-				<td>&lt;button type="button-type"&gt; click me &lt;/button&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="comment-tag">
+				<td></td>											<!-- S.no. -->
+				<td>Comment</td>									<!-- Name -->
+				<td>&lt;!--</td>									<!-- Opening Tag -->
+				<td>--&gt;</td>										<!-- Closing Tag -->
+				<td></td>											<!-- Attribute -->
+				<td>Defines a comment</td>							<!-- Description -->
+				<td>&lt;!-- Here goes the comment --&gt;</td>		<!-- Syntax -->
+				<td></td>											<!-- Example -->
 			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="div">
-				<td>11.</td>
-				<td>Division</td>
-				<td>&lt;div&gt;</td>
-				<td>&lt;/div&gt;</td>
-				<td></td>
-				<td>To group and characterise elements</td>
-				<td>&lt;div&gt; some elements &lt;/div&gt;</td>
-				<td></td>
+		</div>
+		
+		<div class="row">
+			<tr id="img-tag">
+				<td></td>															<!-- S.no. -->
+				<td>img</td>														<!-- Name -->
+				<td>&lt;img&gt;</td>												<!-- Opening Tag -->
+				<td>No Closing Tag</td>												<!-- Closing Tag -->
+				<td></td>															<!-- Attribute -->
+				<td>Defines an image</td>											<!-- Description -->
+				<td>&lt;img src="link to image" alt="alternate text"&gt;</td>		<!-- Syntax -->
+				<td></td>															<!-- Example -->
 			</tr>
-			</div>
-			
+		</div>
+		
+		<div class="row">
+			<tr id="map-tag">
+				<td></td>																					<!-- S.no. -->
+				<td>map</td>																				<!-- Name -->
+				<td>&lt;map&gt;</td>																		<!-- Opening Tag -->
+				<td>&lt;/map&gt;</td>																		<!-- Closing Tag -->
+				<td></td>																					<!-- Attribute -->
+				<td>Defines a client-side image-map.An image-map is an image with clickable areas.</td>		<!-- Description -->
+				<td>&lt;map name="imgmapname"&gt; ... &lt;/map&gt;</td>										<!-- Syntax -->
+				<td></td>																					<!-- Example -->
+			</tr>
+		</div>
+		
+		<div class="row">
+			<tr id="area-tag">
+				<td></td>																									<!-- S.no. -->
+				<td>area</td>																								<!-- Name -->
+				<td>&lt;area&gt;</td>																						<!-- Opening Tag -->
+				<td>No Closing Tag</td>																						<!-- Closing Tag -->
+				<td></td>																									<!-- Attribute -->
+				<td>Defines an area inside an image-map. The 'area' element is always nested inside a 'map' tag.</td>		<!-- Description -->
+				<td>&lt;area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun"&gt;</td>														<!-- Syntax -->
+				<td></td>																									<!-- Example -->
+			</tr>
+		</div>
+				
+		<div class="row">
+			<tr id="canvas-tag">
+				<td></td>																											<!-- S.no. -->
+				<td>canvas</td>																										<!-- Name -->
+				<td>&lt;canvas&gt;</td>																								<!-- Opening Tag -->
+				<td>&lt;/canvas&gt;</td>																							<!-- Closing Tag -->
+				<td></td>																											<!-- Attribute -->
+				<td>Used to draw graphics, on the fly, via scripting (usually JavaScript).<br>
+					The canvas tag is only a container for graphics, you must use a script to actually draw the graphics.</td>		<!-- Description -->
+				<td>&lt;canvas id="mycanvas"&gt;&lt;/canvas&gt;</td>																<!-- Syntax -->
+				<td></td>																											<!-- Example -->
+			</tr>
+		</div>
+		
+		<div class="row">
+			<tr id="figcaption-tag">
+				<td></td>																									<!-- S.no. -->
+				<td>figcaption</td>																								<!-- Name -->
+				<td>&lt;figcaption&gt;</td>																						<!-- Opening Tag -->
+				<td>&lt;/figcaption&gt;</td>																						<!-- Closing Tag -->
+				<td></td>																									<!-- Attribute -->
+				<td>Defines a caption for a figure element</td>																<!-- Description -->
+				<td>&lt;ficaption&gt;figure caption &lt;/figcaption&gt;</td>														<!-- Syntax -->
+				<td></td>																									<!-- Example -->
+			</tr>
+		</div>
+		
 		</table>
 	</div>
 	
