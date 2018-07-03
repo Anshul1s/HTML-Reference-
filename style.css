@@ -1,12 +1,26 @@
 table,th,td {
-      border : 1px solid black;
-      border-collapse:collapse;
+	border: 1px solid black;
+	border-collapse: collapse;
     }
 	
-	th,td {
-	padding:15px;
+table{
+	width: 100%;
 	}
 	
+th,td {
+	padding: 15px;
+	}
+
+
 h1 {
 	text-align: center;
+	}
+
+th {
+	text-align: center;
+	}
+
+td {
+	font-size: 12px;
 }
+	
