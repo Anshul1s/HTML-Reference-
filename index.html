@@ -720,47 +720,6 @@
 			</div>
 			
 			<div class="row">
-			<tr id="frame-tag">                                           <!--Not supported in html5-->
-				<td></td>
-				<td>Frame[NS5]</td>
-				<td>&lt;frame&gt;</td>
-				<td>~</td>
-				<td></td>
-				<td>To define one particular window(frame) within a frameset</td>
-				<td>&lt;frame src="source.html"&gt;</td>
-				<td></td>
-			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="frameset-tag">                                        <!--Not supported in html5-->
-				<td></td>
-				<td>Frameset[NS5]</td>
-				<td>&lt;frameset&gt;</td>
-				<td>&lt;/frameset&gt;</td>
-				<td></td>
-				<td>To define a frameset(specify no. of columns or rows in the frameset, and %/px each will occupy)</td>
-				<td>&lt;frameset col="50,40%,*"&gt;<br>
-					(some frame elements)<br>
-					&lt;/frameset&gt;</td>
-				<td></td>
-			</tr>
-			</div>
-			
-			<div class="row">
-			<tr id="noframes-tag">                                        <!--Not supported in html5-->
-				<td></td>
-				<td>NoFrames[NS5]</td>
-				<td>&lt;noframes&gt;</td>
-				<td>&lt;/noframes&gt;</td>
-				<td></td>
-				<td>To link to a non-frameset version of the web site or to display a message to users that frames are required(Used in frameset element)</td>
-				<td>&lt;noframes&gt;Sorry, your browser does not handle frames!&lt;/noframes&gt;</td>
-				<td></td>
-			</tr>
-			</div>
-			
-			<div class="row">
 			<tr id="iframe-tag">
 				<td></td>
 				<td>Inline Frame</td>
@@ -919,21 +878,6 @@
 			</div>
 			
 			<div class="row">
-			<tr id="directory-list-tag">                                        <!--Not supported in html5-->
-				<td></td>
-				<td>Directory List[NS5]</td>
-				<td>&lt;dir&gt;</td>
-				<td>&lt;/dir&gt;</td>
-				<td></td>
-				<td>To list directory titles</td>
-				<td>&lt;dir&gt;<br>
-					(some li elements)<br>
-					&lt;/dir&gt;</td>
-				<td></td>
-			</tr>
-			</div>
-			
-			<div class="row">
 			<tr id="description-list-tag">
 				<td></td>
 				<td>Descrition List</td>
@@ -972,6 +916,517 @@
 				<td></td>
 				<td>To describe a term/name in a description list</td>
 				<td>&lt;dd&gt;Here Goes The Description&lt;/dd&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="abbreviation-tag">
+				<td></td>
+				<td>abbreviation</td>
+				<td>&lt;abbr&gt;</td>
+				<td>&lt;/abbr&gt;</td>
+				<td></td>
+				<td>To define an abbreviation or an acronym, like "Mr.", "Dec.", "ASAP", "ATM"</td>
+				<td>&lt;abbr title="full form"&gt;short form&lt;/abbr&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="address-tag">
+				<td></td>
+				<td>address</td>
+				<td>&lt;address&gt;</td>
+				<td>&lt;/address&gt;</td>
+				<td></td>
+				<td>To define the contact information for the author/owner(address inside body element means for a document; address inside article element means article)</td>
+				<td>&lt;address&gt; address info &lt;/address&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="bold-tag">
+				<td></td>
+				<td>Bold</td>
+				<td>&lt;b&gt;</td>
+				<td>&lt;/b&gt;</td>
+				<td></td>
+				<td>To specify bold text</td>
+				<td>&lt;b&gt; text &lt;/b&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="bdi-tag">
+				<td></td>
+				<td>Bi-Directional Isolation</td>
+				<td>&lt;bdi&gt;</td>
+				<td>&lt;/bdi&gt;</td>
+				<td></td>
+				<td>To isolate a part of text that might be formatted in a different direction from other text outside it</td>
+				<td>&lt;bdi&gt; arabic text &lt;/bdi&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="bdo-tag">
+				<td></td>
+				<td>Bi-Directional Override</td>
+				<td>&lt;bdo&gt;</td>
+				<td>&lt;/bdo&gt;</td>
+				<td></td>
+				<td>To override the current text direction</td>
+				<td>&lt;bdo dir="rtl"&gt; This paragraph will go right-to-left(tfel-ot-thgir) &lt;/bdo&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="blockquote-tag">
+				<td></td>
+				<td>lockquote</td>
+				<td>&lt;blockquote&gt;</td>
+				<td>&lt;/blockquote&gt;</td>
+				<td></td>
+				<td>To specify a section that is quoted from another source(italics)</td>
+				<td>&lt;blockquote&gt; quotation &lt;/blockquote&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="q-tag">
+				<td></td>
+				<td>q</td>
+				<td>&lt;q&gt;</td>
+				<td>&lt;/q&gt;</td>
+				<td></td>
+				<td>To define a short quotation(adds double quotes)</td>
+				<td>&lt;q&gt; short quote &lt;/q&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="cite-tag">
+				<td></td>
+				<td>cite</td>
+				<td>&lt;cite&gt;</td>
+				<td>&lt;/cite&gt;</td>
+				<td></td>
+				<td>To define the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.)</td>
+				<td>Ex:&lt;p&gt;&lt;cite&gt; title &lt;/cite&gt; by name &lt;/p&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="code-tag">
+				<td></td>
+				<td>code</td>
+				<td>&lt;code&gt;</td>
+				<td>&lt;/code&gt;</td>
+				<td></td>
+				<td>To define a piece of computer code</td>
+				<td>&lt;code&gt;a piece of computer code&lt;/code&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="deleted-tag">
+				<td></td>
+				<td>deleted</td>
+				<td>&lt;del&gt;</td>
+				<td>&lt;/del&gt;</td>
+				<td></td>
+				<td>To define text that has been deleted from a document(also see ins)</td>
+				<td>&lt;del&gt; deleted term &lt;/del&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="dfn-tag">
+				<td></td>
+				<td>defining instance</td>
+				<td>&lt;dfn&gt;</td>
+				<td>&lt;/dfn&gt;</td>
+				<td></td>
+				<td>To represent the defining instance of a term in HTML</td>
+				<td>&lt;dfn&gt; term &lt;/dfn&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="emphasize-tag">
+				<td></td>
+				<td>emphasize</td>
+				<td>&lt;em&gt;</td>
+				<td>&lt;/em&gt;</td>
+				<td></td>
+				<td>To emphasize text</td>
+				<td>&lt;em&gt;emphasized text&lt;/em&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="italics-tag">
+				<td></td>
+				<td>italics</td>
+				<td>&lt;i&gt;</td>
+				<td>&lt;/i&gt;</td>
+				<td></td>
+				<td>To define a part of text in an alternate voice or mood(Displayed in italic)</td>
+				<td>&lt;i&gt;text in italics&lt;/i&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="insert-tag">
+				<td></td>
+				<td>insert</td>
+				<td>&lt;ins&gt;</td>
+				<td>&lt;/ins&gt;</td>
+				<td></td>
+				<td>To define a text that has been inserted into a document(also see del)</td>
+				<td>&lt;ins&gt;inserted term&lt;/ins&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="keyboard-tag">
+				<td></td>
+				<td>Keyboard</td>
+				<td>&lt;kbd&gt;</td>
+				<td>&lt;/kbd&gt;</td>
+				<td></td>
+				<td>To define keyboard input</td>
+				<td>&lt;kbd&gt;Keyboard input&lt;/kbd&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="mark-tag">
+				<td></td>
+				<td>mark</td>
+				<td>&lt;mark&gt;</td>
+				<td>&lt;/mark&gt;</td>
+				<td></td>
+				<td>To define marked(highlighted) text</td>
+				<td>&lt;mark&gt;highlighted text&lt;/mark&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="meter-tag">
+				<td></td>
+				<td>meter</td>
+				<td>&lt;meter&gt;</td>
+				<td>&lt;/meter&gt;</td>
+				<td></td>
+				<td>To define a scalar measurement within a known range, or a fractional value. This is also known as a gauge</td>
+				<td>&lt;meter value="0.6"&gt;60%&lt;/meter&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="pre-tag">
+				<td></td>
+				<td>preformatted</td>
+				<td>&lt;pre&gt;</td>
+				<td>&lt;/pre&gt;</td>
+				<td></td>
+				<td>To define preformatted text(Text in a element is displayed in a fixed-width font, and it preserves both spaces and line breaks)</td>
+				<td>&lt;pre&gt;This is<br>
+					shown exa     actly like<br>
+					this&lt;/pre&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="progress-tag">
+				<td></td>
+				<td>progress</td>
+				<td>&lt;progress&gt;</td>
+				<td>&lt;/progress&gt;</td>
+				<td></td>
+				<td>To represent the progress of a task</td>
+				<td>&lt;progress value="22" max="100"&gt;&lt;/progress&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="ruby-tag">
+				<td></td>
+				<td>ruby</td>
+				<td>&lt;ruby&gt;</td>
+				<td>&lt;/ruby&gt;</td>
+				<td></td>
+				<td>To specify a ruby annotation. A ruby annotation is a small extra text, attached to the main text to indicate the pronounciation or meaning of the corresponding characters</td>
+				<td>&lt;ruby&gt;<br>
+					text &lt;rt&gt; explanation &lt;rt&gt;<br>
+					&lt;/ruby&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="rt-tag">
+				<td></td>
+				<td>rt</td>
+				<td>&lt;rt&gt;</td>
+				<td>&lt;/rt&gt;</td>
+				<td></td>
+				<td>To define an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation</td>
+				<td>&lt;rt&gt;explanation&lt;/rt&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="rp-tag">
+				<td></td>
+				<td>rp</td>
+				<td>&lt;rp&gt;</td>
+				<td>&lt;/rp&gt;</td>
+				<td></td>
+				<td>To provide parentheses around a ruby text, to be shown by browsers that do not support ruby annotations</td>
+				<td>&lt;rt&gt;&lt;rp&gt;(&lt;/rp&gt;explanation&lt;rp&gt;)&lt;/rp&gt;&lt;/rt&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="s-tag">
+				<td></td>
+				<td>s</td>
+				<td>&lt;s&gt;</td>
+				<td>&lt;/s&gt;</td>
+				<td></td>
+				<td>To specify text that is no longer correct, accurate or relevant</td>
+				<td>&lt;s&gt; incorrect text &lt;/s&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="sample-tag">
+				<td></td>
+				<td>sample</td>
+				<td>&lt;samp&gt;</td>
+				<td>&lt;/samp&gt;</td>
+				<td></td>
+				<td>To define sample output from a computer program</td>
+				<td>&lt;samp&gt;Sample output from a computer program&lt;/samp&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="small-tag">
+				<td></td>
+				<td>small</td>
+				<td>&lt;small&gt;</td>
+				<td>&lt;/small&gt;</td>
+				<td></td>
+				<td>To define smaller text (and other side comments)</td>
+				<td>&lt;small&gt; smaller text &lt;/small&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="strong-tag">
+				<td></td>
+				<td>strong</td>
+				<td>&lt;strong&gt;</td>
+				<td>&lt;/strong&gt;</td>
+				<td></td>
+				<td>To define important text</td>
+				<td>&lt;strong&gt;Strong Text&lt;/strong&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="subscript-tag">
+				<td></td>
+				<td>subscript</td>
+				<td>&lt;sub&gt;</td>
+				<td>&lt;/sub&gt;</td>
+				<td></td>
+				<td>To define subscript text</td>
+				<td>&lt;sub&gt;subscript&lt;/sub&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="superscript-tag">
+				<td></td>
+				<td>superscript</td>
+				<td>&lt;sup&gt;</td>
+				<td>&lt;/sup&gt;</td>
+				<td></td>
+				<td>To define superscript text</td>
+				<td>&lt;sup&gt;superscript&lt;/sup&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="template-tag">
+				<td></td>
+				<td>template</td>
+				<td>&lt;template&gt;</td>
+				<td>&lt;/template&gt;</td>
+				<td></td>
+				<td>To holds its content hidden from the client. Content will not be rendered. The content can be visible and rendered later by using JavaScript</td>
+				<td>&lt;template&gt;&lt;p&gt;text&lt;/p&gt;&lt;/template&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="time-tag">
+				<td></td>
+				<td>time</td>
+				<td>&lt;time&gt;</td>
+				<td>&lt;/time&gt;</td>
+				<td></td>
+				<td>To define a human-readable date/time</td>
+				<td>&lt;time&gt;10:00&lt;/time&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="u-tag">
+				<td></td>
+				<td>u</td>
+				<td>&lt;u&gt;</td>
+				<td>&lt;/u&gt;</td>
+				<td></td>
+				<td>To represent some text that should be stylistically different from normal text, such as misspelled words or proper nouns in Chinese(underlines it)</td>
+				<td>&lt;u&gt;parragraph&lt;/u&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="variable-tag">
+				<td></td>
+				<td>variable</td>
+				<td>&lt;var&gt;</td>
+				<td>&lt;/var&gt;</td>
+				<td></td>
+				<td>To define a variable</td>
+				<td>&lt;var&gt;variable&lt;/var&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="wbr-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;wbr&gt;</td>
+				<td>&lt;/wbr&gt;</td>
+				<td></td>
+				<td>To specify where in a text it would be ok to add a line-break. When a word is too long, or you are afraid that the browser will break your lines at the wrong place, you can use the <wbr> element to add word break opportunities</td>
+				<td>&lt;wbr&gt;some text&lt;/wbr&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;</td>
+				<td>&lt;/&gt;</td>
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;&lt;/&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;</td>
+				<td>&lt;/&gt;</td>
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;&lt;/&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;</td>
+				<td>&lt;/&gt;</td>
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;&lt;/&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;</td>
+				<td>&lt;/&gt;</td>
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;&lt;/&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;</td>
+				<td>&lt;/&gt;</td>
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;&lt;/&gt;</td>
+				<td></td>
+			</tr>
+			</div>
+			
+			<div class="row">
+			<tr id="-tag">
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;</td>
+				<td>&lt;/&gt;</td>
+				<td></td>
+				<td></td>
+				<td>&lt;&gt;&lt;/&gt;</td>
 				<td></td>
 			</tr>
 			</div>
