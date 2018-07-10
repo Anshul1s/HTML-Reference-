@@ -14,7 +14,11 @@
 </head>
 
 <body>
-	<h1><u>HTML Reference Sheet</u></h1>
+	<div class="row">
+		<div class="container-fluid">
+			<h1><u>HTML Reference Sheet</u></h1>
+		</div>
+	</div>
 	
 	<div class="container-fluid rounded">
 	<table>
@@ -34,14 +38,14 @@
 			
 		<div class="row">
 			<tr id="doctype-tag">
-				<td>1.</td>                     			<!-- S.no. -->
-				<td>DOCTYPE</td>                			<!-- Name -->
-				<td>&lt;!DOCTYPE&gt;</td>       			<!-- Opening Tag -->
-				<td>~</td>                      			<!-- Closing Tag -->
-				<td>~</td>                       			<!-- Attribute -->
-				<td>Defines the document type</td>			<!-- Description -->
-				<td>&lt;!DOCTYPE ....&gt;</td>				<!-- Syntax -->
-				<td></td>						<!-- Example -->
+				<td class="sno">1.</td>                     			<!-- S.no. -->
+				<td class="name">DOCTYPE</td>                			<!-- Name -->
+				<td class="otag">&lt;!DOCTYPE&gt;</td>       			<!-- Opening Tag -->
+				<td class="ctag">~</td>                      			<!-- Closing Tag -->
+				<td class="atrb">~</td>                       			<!-- Attribute -->
+				<td class="descp">Defines the document type</td>		<!-- Description -->
+				<td class="syntx">&lt;!DOCTYPE ....&gt;</td>			<!-- Syntax -->
+				<td class="exmp"></td>						<!-- Example -->
 			</tr>
 		</div>
 		
@@ -773,7 +777,16 @@
 				<td>Form</td>							
 				<td>&lt;form&gt;</td>						
 				<td>&lt;/form&gt;</td>						
-				<td></td>							
+				<td><p> <a href="#" target="_blank">accept-charset</a>,
+						<a href="#" target="_blank">action</a>,
+						<a href="#" target="_blank">autocomplete</a>,
+						<a href="#" target="_blank">enctype</a>,
+						<a href="#" target="_blank">method</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">novalidate</a>,
+						<a href="#" target="_blank">target</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>							
 				<td>To create a form to submit</td>				
 				<td>&lt;form action="/url-to-submit-form-data"&gt;<br>
 					(all the input elements for the form go here)<br>
@@ -788,7 +801,38 @@
 				<td>Input</td>
 				<td>&lt;input&gt;</td>
 				<td>~</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">accept</a>,
+						<a href="#" target="_blank">alt</a>,
+						<a href="#" target="_blank">autocomplete</a>,
+						<a href="#" target="_blank">autofocus</a>,
+						<a href="#" target="_blank">checked</a>,
+						<a href="#" target="_blank">dirname</a>,
+						<a href="#" target="_blank">disabled</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">formaction</a>,
+						<a href="#" target="_blank">formenctype</a>,
+						<a href="#" target="_blank">formmethod</a>,
+						<a href="#" target="_blank">formnovalidate</a>,
+						<a href="#" target="_blank">formtarget</a>,
+						<a href="#" target="_blank">height</a>,
+						<a href="#" target="_blank">list</a>,
+						<a href="#" target="_blank">max</a>,
+						<a href="#" target="_blank">maxlength</a>,
+						<a href="#" target="_blank">min</a>,
+						<a href="#" target="_blank">multiple</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">pattern</a>,
+						<a href="#" target="_blank">placeholder</a>,
+						<a href="#" target="_blank">readonly</a>,
+						<a href="#" target="_blank">required</a>,
+						<a href="#" target="_blank">size</a>,
+						<a href="#" target="_blank">src</a>,
+						<a href="#" target="_blank">step</a>,
+						<a href="#" target="_blank">type</a>,
+						<a href="#" target="_blank">value</a>,
+						<a href="#" target="_blank">width</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To get input from user</td>
 				<td>&lt;input type="input-type"&gt;</td>
 				<td></td>
@@ -801,7 +845,20 @@
 				<td>Text Area</td>
 				<td>&lt;textarea&gt;</td>
 				<td>&lt;/textarea&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">autofocus</a>,
+						<a href="#" target="_blank">cols</a>,
+						<a href="#" target="_blank">dirname</a>,
+						<a href="#" target="_blank">disabled</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">maxlength</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">placeholder</a>,
+						<a href="#" target="_blank">readonly</a>,
+						<a href="#" target="_blank">required</a>,
+						<a href="#" target="_blank">rows</a>,
+						<a href="#" target="_blank">wrap</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a multi-line text input control</td>				
 				<td>&lt;textarea rows="4" cols="50"&gt; some text &lt;/textarea&gt;</td>	
 				<td></td>
@@ -814,7 +871,19 @@
 				<td>Button</td>
 				<td>&lt;button&gt;</td>
 				<td>&lt;/button&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">autofocus</a>,
+						<a href="#" target="_blank">disabled</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">formaction</a>,
+						<a href="#" target="_blank">formenctype</a>,
+						<a href="#" target="_blank">formmethod</a>,
+						<a href="#" target="_blank">formnovalidate</a>,
+						<a href="#" target="_blank">formtarget</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">type</a>,
+						<a href="#" target="_blank">value</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To create a button</td>
 				<td>&lt;button type="button-type"&gt; click me &lt;/button&gt;</td>
 				<td></td>
@@ -827,7 +896,15 @@
 				<td>Select</td>
 				<td>&lt;select&gt;</td>
 				<td>&lt;/select&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">autofocus</a>,
+						<a href="#" target="_blank">disabled</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">multiple</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">required</a>,
+						<a href="#" target="_blank">size</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To create a drop-down list</td>
 				<td>&lt;select&gt;<br>
 					(some option elements)<br>
@@ -842,7 +919,10 @@
 				<td>Option Groups</td>
 				<td>&lt;optgroup&gt;</td>
 				<td>&lt;/optgroup&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">disabled</a>,
+						<a href="#" target="_blank">label</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To group related options in a drop-down list</td>
 				<td>&lt;optgroup label="Group 1"&gt;<br>
 					(option elements for Group 1)
@@ -857,7 +937,20 @@
 				<td>Option</td>
 				<td>&lt;option&gt;</td>
 				<td>&lt;/option&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">input</a>,
+						<a href="#" target="_blank">textarea</a>,
+						<a href="#" target="_blank">button</a>,
+						<a href="#" target="_blank">select</a>,
+						<a href="#" target="_blank">optgroup</a>,
+						<a href="#" target="_blank">option</a>,
+						<a href="#" target="_blank">label</a>,
+						<a href="#" target="_blank">fieldset</a>,
+						<a href="#" target="_blank">legend</a>,
+						<a href="#" target="_blank">datalist</a>,
+						<a href="#" target="_blank">output</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define an option in a select list</td>
 				<td>&lt;option value="Option 1"&gt;Option 1&lt;/option&gt;</td>
 				<td></td>
@@ -870,7 +963,10 @@
 				<td>Label</td>
 				<td>&lt;label&gt;</td>
 				<td>&lt;/label&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">for</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a label for an input element</td>
 				<td>&lt;label for="opt1"&gt;Option 1&lt;/label&gt;<br>
 				&lt;input type="input-type" id="opt1" value="opt1"&gt;</td>
@@ -884,7 +980,11 @@
 				<td>Fieldset</td>
 				<td>&lt;fieldset&gt;</td>
 				<td>&lt;/fieldset&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">disabled</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To group related elements in a form(draws a box around the related elements)</td>
 				<td>&lt;fieldset&gt;<br>
 					&lt;legend&gt;Group Name&lt;/legend&gt;<br>
@@ -900,7 +1000,8 @@
 				<td>Legend</td>
 				<td>&lt;legend&gt;</td>
 				<td>&lt;/legend&gt;</td>
-				<td></td>
+				<td><p>	<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a caption for the fieldset element</td>
 				<td>&lt;legend&gt;Group Name&lt;/legend&gt;</td>
 				<td></td>
@@ -913,7 +1014,8 @@
 				<td>Datalist</td>
 				<td>&lt;datalist&gt;</td>
 				<td>&lt;/datalist&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify a list of pre-defined options for an input element</td>
 				<td>&lt;datalist&gt;<br>
 					(some option elements)<br>
@@ -928,7 +1030,11 @@
 				<td>Output</td>
 				<td>&lt;output&gt;</td>
 				<td>&lt;/output&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">for</a>,
+						<a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To represent the result of a calculation (like one performed by a script)</td>
 				<td>&lt;output name="variable-name" for="var-used1 var-used2"&gt;&lt;/output&gt;</td>
 				<td></td>
@@ -938,10 +1044,17 @@
 		<div class="row">
 			<tr id="iframe-tag">
 				<td>61.</td>
-				<td>Inline Frame</td>
+				<td>iframe</td>
 				<td>&lt;iframe&gt;</td>
 				<td>&lt;/iframe&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">height</a>,
+						<a href="#" target="_blank">name</a>,
+						<a href="#" target="_blank">sandbox</a>,
+						<a href="#" target="_blank">src</a>,
+						<a href="#" target="_blank">srcdoc</a>,
+						<a href="#" target="_blank">width</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify an inline frame</td>
 				<td>&lt;iframe src="source-link"&gt;<br> 
 					&lt;p&gt;Your browser does not support frames&lt;p&gt;
@@ -956,7 +1069,14 @@
 				<td>Audio</td>
 				<td>&lt;audio&gt;</td>
 				<td>&lt;/audio&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">autoplay</a>,
+						<a href="#" target="_blank">controls</a>,
+						<a href="#" target="_blank">loop</a>,
+						<a href="#" target="_blank">muted</a>,
+						<a href="#" target="_blank">preload</a>,
+						<a href="#" target="_blank">src</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define sound, such as music or other audio streams</td>
 				<td>&lt;audio controls&gt;<br>
 					(some source elements)<br>
@@ -972,7 +1092,13 @@
 				<td>Source</td>
 				<td>&lt;source&gt;</td>
 				<td>~</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">src</a>,
+						<a href="#" target="_blank">srcset</a>,
+						<a href="#" target="_blank">media</a>,
+						<a href="#" target="_blank">sizes</a>,
+						<a href="#" target="_blank">type</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify multiple media resources for media elements, such as video, audio, and picture elements</td>
 				<td>&lt;source src="source-link.mp3" type="audio/mpeg"&gt;<br>
 					&lt;source src="source-link.mp4" type="video/mp4"&gt;</td>
@@ -986,7 +1112,13 @@
 				<td>Track</td>
 				<td>&lt;track&gt;</td>
 				<td>~</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">default</a>,
+						<a href="#" target="_blank">kind</a>,
+						<a href="#" target="_blank">label</a>,
+						<a href="#" target="_blank">src</a>,
+						<a href="#" target="_blank">srclang</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify text tracks for media elements(audio and video)</td>
 				<td>&lt;track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English"&gt;</td>
 				<td></td>
@@ -999,7 +1131,17 @@
 				<td>Video</td>
 				<td>&lt;video&gt;</td>
 				<td>&lt;/video&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">autoplay</a>,
+						<a href="#" target="_blank">controls</a>,
+						<a href="#" target="_blank">height</a>,
+						<a href="#" target="_blank">loop</a>,
+						<a href="#" target="_blank">muted</a>,
+						<a href="#" target="_blank">poster</a>,
+						<a href="#" target="_blank">preload</a>,
+						<a href="#" target="_blank">src</a>,
+						<a href="#" target="_blank">width</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify video, such as a movie clip or other video streams</td>
 				<td>&lt;video&gt;<br>
 					(some source elements)<br>
@@ -1015,7 +1157,16 @@
 				<td>Anchor</td>
 				<td>&lt;a&gt;</td>
 				<td>&lt;/a&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">download</a>,
+						<a href="#" target="_blank">href</a>,
+						<a href="#" target="_blank">hreflang</a>,
+						<a href="#" target="_blank">media</a>,
+						<a href="#" target="_blank">ping</a>,
+						<a href="#" target="_blank">rel</a>,
+						<a href="#" target="_blank">target</a>,
+						<a href="#" target="_blank">type</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a hyperlink, which is used to link from one page to another</td>
 				<td>&lt;a href="destination-link"&gt; Click here to go to link &lt;/a&gt;</td>
 				<td></td>
@@ -1028,7 +1179,15 @@
 				<td>Link</td>
 				<td>&lt;link&gt;</td>
 				<td>~</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">crossorigin</a>,
+						<a href="#" target="_blank">href</a>,
+						<a href="#" target="_blank">hreflang</a>,
+						<a href="#" target="_blank">media</a>,
+						<a href="#" target="_blank">rel</a>,
+						<a href="#" target="_blank">sizes</a>,
+						<a href="#" target="_blank">type</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To link to external style sheets</td>
 				<td>&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</td>
 				<td></td>
@@ -1041,7 +1200,8 @@
 				<td>Navigation</td>
 				<td>&lt;nav&gt;</td>
 				<td>&lt;/nav&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a set of navigation links</td>
 				<td>&lt;nav&gt;<br>
 					(some anchor elements)<br>
@@ -1056,7 +1216,11 @@
 				<td>Ordered List</td>
 				<td>&lt;ol&gt;</td>
 				<td>&lt;/ol&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">reversed</a>,
+						<a href="#" target="_blank">start</a>,
+						<a href="#" target="_blank">type</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To create an Ordered List</td>
 				<td>&lt;ol&gt;<br>
 				(some li elements)<br>
@@ -1071,7 +1235,8 @@
 				<td>Unordered List</td>
 				<td>&lt;ul&gt;</td>
 				<td>&lt;/ul&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To create an Unordered List</td>
 				<td>&lt;ul&gt;<br>
 				(some li elements)<br>
@@ -1086,7 +1251,9 @@
 				<td>List item</td>
 				<td>&lt;li&gt;</td>
 				<td>&lt;/li&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">value</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a list item</td>
 				<td>&lt;li&gt;First item&lt;/li&gt;</td>
 				<td></td>
@@ -1099,7 +1266,8 @@
 				<td>Descrition List</td>
 				<td>&lt;dl&gt;</td>
 				<td>&lt;/dl&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a description list</td>
 				<td>&lt;dl&gt;<br>
 					(some description term{and description} elements)<br>
@@ -1114,7 +1282,8 @@
 				<td>Description Term</td>
 				<td>&lt;dt&gt;</td>
 				<td>&lt;/dt&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a term/name in a description list</td>
 				<td>&lt;dt&gt;<br>
 					(description element)<br>
@@ -1129,7 +1298,8 @@
 				<td>Description</td>
 				<td>&lt;dd&gt;</td>
 				<td>&lt;/dd&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To describe a term/name in a description list</td>
 				<td>&lt;dd&gt;Here Goes The Description&lt;/dd&gt;</td>
 				<td></td>
@@ -1142,7 +1312,8 @@
 				<td>abbreviation</td>
 				<td>&lt;abbr&gt;</td>
 				<td>&lt;/abbr&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define an abbreviation or an acronym, like "Mr.", "Dec.", "ASAP", "ATM"</td>
 				<td>&lt;abbr title="full form"&gt;short form&lt;/abbr&gt;</td>
 				<td></td>
@@ -1155,7 +1326,8 @@
 				<td>address</td>
 				<td>&lt;address&gt;</td>
 				<td>&lt;/address&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define the contact information for the author/owner(address inside body element means for a document; address inside article element means article)</td>
 				<td>&lt;address&gt; address info &lt;/address&gt;</td>
 				<td></td>
@@ -1168,7 +1340,8 @@
 				<td>Bold</td>
 				<td>&lt;b&gt;</td>
 				<td>&lt;/b&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify bold text</td>
 				<td>&lt;b&gt; text &lt;/b&gt;</td>
 				<td></td>
@@ -1181,7 +1354,8 @@
 				<td>Bi-Directional Isolation</td>
 				<td>&lt;bdi&gt;</td>
 				<td>&lt;/bdi&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To isolate a part of text that might be formatted in a different direction from other text outside it</td>
 				<td>&lt;bdi&gt; arabic text &lt;/bdi&gt;</td>
 				<td></td>
@@ -1194,7 +1368,9 @@
 				<td>Bi-Directional Override</td>
 				<td>&lt;bdo&gt;</td>
 				<td>&lt;/bdo&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">dir</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To override the current text direction</td>
 				<td>&lt;bdo dir="rtl"&gt; This paragraph will go right-to-left(tfel-ot-thgir) &lt;/bdo&gt;</td>
 				<td></td>
@@ -1204,10 +1380,12 @@
 		<div class="row">
 			<tr id="blockquote-tag">
 				<td>80.</td>
-				<td>lockquote</td>
+				<td>blockquote</td>
 				<td>&lt;blockquote&gt;</td>
 				<td>&lt;/blockquote&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">cite</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify a section that is quoted from another source(italics)</td>
 				<td>&lt;blockquote&gt; quotation &lt;/blockquote&gt;</td>
 				<td></td>
@@ -1220,7 +1398,9 @@
 				<td>q</td>
 				<td>&lt;q&gt;</td>
 				<td>&lt;/q&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">cite</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a short quotation(adds double quotes)</td>
 				<td>&lt;q&gt; short quote &lt;/q&gt;</td>
 				<td></td>
@@ -1233,7 +1413,8 @@
 				<td>cite</td>
 				<td>&lt;cite&gt;</td>
 				<td>&lt;/cite&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.)</td>
 				<td>Ex:&lt;p&gt;&lt;cite&gt; title &lt;/cite&gt; by name &lt;/p&gt;</td>
 				<td></td>
@@ -1246,7 +1427,14 @@
 				<td>code</td>
 				<td>&lt;code&gt;</td>
 				<td>&lt;/code&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">em</a>,
+						<a href="#" target="_blank">strong</a>,
+						<a href="#" target="_blank">code</a>,
+						<a href="#" target="_blank">samp</a>,
+						<a href="#" target="_blank">kbd</a>,
+						<a href="#" target="_blank">var</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a piece of computer code</td>
 				<td>&lt;code&gt;a piece of computer code&lt;/code&gt;</td>
 				<td></td>
@@ -1259,7 +1447,10 @@
 				<td>deleted</td>
 				<td>&lt;del&gt;</td>
 				<td>&lt;/del&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">cite</a>,
+						<a href="#" target="_blank">datetime</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define text that has been deleted from a document(also see ins)</td>
 				<td>&lt;del&gt; deleted term &lt;/del&gt;</td>
 				<td></td>
@@ -1272,7 +1463,8 @@
 				<td>defining instance</td>
 				<td>&lt;dfn&gt;</td>
 				<td>&lt;/dfn&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To represent the defining instance of a term in HTML</td>
 				<td>&lt;dfn&gt; term &lt;/dfn&gt;</td>
 				<td></td>
@@ -1285,7 +1477,14 @@
 				<td>emphasize</td>
 				<td>&lt;em&gt;</td>
 				<td>&lt;/em&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">em</a>,
+						<a href="#" target="_blank">strong</a>,
+						<a href="#" target="_blank">code</a>,
+						<a href="#" target="_blank">samp</a>,
+						<a href="#" target="_blank">kbd</a>,
+						<a href="#" target="_blank">var</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To emphasize text</td>
 				<td>&lt;em&gt;emphasized text&lt;/em&gt;</td>
 				<td></td>
@@ -1298,7 +1497,8 @@
 				<td>italics</td>
 				<td>&lt;i&gt;</td>
 				<td>&lt;/i&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a part of text in an alternate voice or mood(Displayed in italic)</td>
 				<td>&lt;i&gt;text in italics&lt;/i&gt;</td>
 				<td></td>
@@ -1311,7 +1511,10 @@
 				<td>insert</td>
 				<td>&lt;ins&gt;</td>
 				<td>&lt;/ins&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">cite</a>,
+						<a href="#" target="_blank">datetime</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a text that has been inserted into a document(also see del)</td>
 				<td>&lt;ins&gt;inserted term&lt;/ins&gt;</td>
 				<td></td>
@@ -1324,7 +1527,14 @@
 				<td>Keyboard</td>
 				<td>&lt;kbd&gt;</td>
 				<td>&lt;/kbd&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">em</a>,
+						<a href="#" target="_blank">strong</a>,
+						<a href="#" target="_blank">code</a>,
+						<a href="#" target="_blank">samp</a>,
+						<a href="#" target="_blank">kbd</a>,
+						<a href="#" target="_blank">var</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define keyboard input</td>
 				<td>&lt;kbd&gt;Keyboard input&lt;/kbd&gt;</td>
 				<td></td>
@@ -1337,7 +1547,8 @@
 				<td>mark</td>
 				<td>&lt;mark&gt;</td>
 				<td>&lt;/mark&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define marked(highlighted) text</td>
 				<td>&lt;mark&gt;highlighted text&lt;/mark&gt;</td>
 				<td></td>
@@ -1350,7 +1561,15 @@
 				<td>meter</td>
 				<td>&lt;meter&gt;</td>
 				<td>&lt;/meter&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">form</a>,
+						<a href="#" target="_blank">high</a>,
+						<a href="#" target="_blank">low</a>,
+						<a href="#" target="_blank">max</a>,
+						<a href="#" target="_blank">min</a>,
+						<a href="#" target="_blank">optimum</a>,
+						<a href="#" target="_blank">value</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a scalar measurement within a known range, or a fractional value. This is also known as a gauge</td>
 				<td>&lt;meter value="0.6"&gt;60%&lt;/meter&gt;</td>
 				<td></td>
@@ -1363,7 +1582,8 @@
 				<td>preformatted</td>
 				<td>&lt;pre&gt;</td>
 				<td>&lt;/pre&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define preformatted text(Text in a element is displayed in a fixed-width font, and it preserves both spaces and line breaks)</td>
 				<td>&lt;pre&gt;This is<br>
 					shown exa     actly like<br>
@@ -1378,7 +1598,10 @@
 				<td>progress</td>
 				<td>&lt;progress&gt;</td>
 				<td>&lt;/progress&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">max</a>,
+						<a href="#" target="_blank">value</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To represent the progress of a task</td>
 				<td>&lt;progress value="22" max="100"&gt;&lt;/progress&gt;</td>
 				<td></td>
@@ -1391,7 +1614,8 @@
 				<td>ruby</td>
 				<td>&lt;ruby&gt;</td>
 				<td>&lt;/ruby&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify a ruby annotation. A ruby annotation is a small extra text, attached to the main text to indicate the pronounciation or meaning of the corresponding characters</td>
 				<td>&lt;ruby&gt;<br>
 					text &lt;rt&gt; explanation &lt;rt&gt;<br>
@@ -1406,7 +1630,8 @@
 				<td>rt</td>
 				<td>&lt;rt&gt;</td>
 				<td>&lt;/rt&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation</td>
 				<td>&lt;rt&gt;explanation&lt;/rt&gt;</td>
 				<td></td>
@@ -1419,7 +1644,8 @@
 				<td>rp</td>
 				<td>&lt;rp&gt;</td>
 				<td>&lt;/rp&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To provide parentheses around a ruby text, to be shown by browsers that do not support ruby annotations</td>
 				<td>&lt;rt&gt;&lt;rp&gt;(&lt;/rp&gt;explanation&lt;rp&gt;)&lt;/rp&gt;&lt;/rt&gt;</td>
 				<td></td>
@@ -1432,7 +1658,8 @@
 				<td>s</td>
 				<td>&lt;s&gt;</td>
 				<td>&lt;/s&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify text that is no longer correct, accurate or relevant</td>
 				<td>&lt;s&gt; incorrect text &lt;/s&gt;</td>
 				<td></td>
@@ -1445,7 +1672,14 @@
 				<td>sample</td>
 				<td>&lt;samp&gt;</td>
 				<td>&lt;/samp&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">em</a>,
+						<a href="#" target="_blank">strong</a>,
+						<a href="#" target="_blank">code</a>,
+						<a href="#" target="_blank">samp</a>,
+						<a href="#" target="_blank">kbd</a>,
+						<a href="#" target="_blank">var</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define sample output from a computer program</td>
 				<td>&lt;samp&gt;Sample output from a computer program&lt;/samp&gt;</td>
 				<td></td>
@@ -1458,7 +1692,8 @@
 				<td>small</td>
 				<td>&lt;small&gt;</td>
 				<td>&lt;/small&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define smaller text (and other side comments)</td>
 				<td>&lt;small&gt; smaller text &lt;/small&gt;</td>
 				<td></td>
@@ -1471,7 +1706,14 @@
 				<td>strong</td>
 				<td>&lt;strong&gt;</td>
 				<td>&lt;/strong&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">em</a>,
+						<a href="#" target="_blank">strong</a>,
+						<a href="#" target="_blank">code</a>,
+						<a href="#" target="_blank">samp</a>,
+						<a href="#" target="_blank">kbd</a>,
+						<a href="#" target="_blank">var</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define important text</td>
 				<td>&lt;strong&gt;Strong Text&lt;/strong&gt;</td>
 				<td></td>
@@ -1484,7 +1726,8 @@
 				<td>subscript</td>
 				<td>&lt;sub&gt;</td>
 				<td>&lt;/sub&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define subscript text</td>
 				<td>&lt;sub&gt;subscript&lt;/sub&gt;</td>
 				<td></td>
@@ -1497,7 +1740,8 @@
 				<td>superscript</td>
 				<td>&lt;sup&gt;</td>
 				<td>&lt;/sup&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define superscript text</td>
 				<td>&lt;sup&gt;superscript&lt;/sup&gt;</td>
 				<td></td>
@@ -1510,7 +1754,7 @@
 				<td>template</td>
 				<td>&lt;template&gt;</td>
 				<td>&lt;/template&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a> </p></td>
 				<td>To holds its content hidden from the client. Content will not be rendered. The content can be visible and rendered later by using JavaScript</td>
 				<td>&lt;template&gt;&lt;p&gt;text&lt;/p&gt;&lt;/template&gt;</td>
 				<td></td>
@@ -1523,7 +1767,9 @@
 				<td>time</td>
 				<td>&lt;time&gt;</td>
 				<td>&lt;/time&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">datetime</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a human-readable date/time</td>
 				<td>&lt;time&gt;10:00&lt;/time&gt;</td>
 				<td></td>
@@ -1536,7 +1782,8 @@
 				<td>u</td>
 				<td>&lt;u&gt;</td>
 				<td>&lt;/u&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To represent some text that should be stylistically different from normal text, such as misspelled words or proper nouns in Chinese(underlines it)</td>
 				<td>&lt;u&gt;parragraph&lt;/u&gt;</td>
 				<td></td>
@@ -1549,7 +1796,14 @@
 				<td>variable</td>
 				<td>&lt;var&gt;</td>
 				<td>&lt;/var&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">em</a>,
+						<a href="#" target="_blank">strong</a>,
+						<a href="#" target="_blank">code</a>,
+						<a href="#" target="_blank">samp</a>,
+						<a href="#" target="_blank">kbd</a>,
+						<a href="#" target="_blank">var</a>,
+						<a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To define a variable</td>
 				<td>&lt;var&gt;variable&lt;/var&gt;</td>
 				<td></td>
@@ -1562,7 +1816,8 @@
 				<td>wbr</td>
 				<td>&lt;wbr&gt;</td>
 				<td>&lt;/wbr&gt;</td>
-				<td></td>
+				<td><p> <a href="#" target="_blank">GA</a>,
+						<a href="#" target="_blank">EA</a> </p></td>
 				<td>To specify where in a text it would be ok to add a line-break. When a word is too long, or you are afraid that the browser will break your lines at the wrong place, you can use the <wbr> element to add word break opportunities</td>
 				<td>&lt;wbr&gt;some text&lt;/wbr&gt;</td>
 				<td></td>
